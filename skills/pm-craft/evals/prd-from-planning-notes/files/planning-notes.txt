@@ -1,0 +1,15 @@
+planning sync - scheduled exports (analytics app "Ledgerly")
+attendees: me (PM), Dana (design), Raj (eng lead), Priya (billing PM)
+
+- support says ~40 tickets last month asking for scheduled exports (Raj pulled from the helpdesk tag "export-schedule")
+- today users export manually from report page, CSV only. people set calendar reminders lol
+- want: pick a report, choose daily/weekly/monthly, deliver to email or S3 bucket
+- CSV for sure. parquet maybe? Raj says parquet adds 2-3 wks
+- Dana: thinks this helps retention for the finance persona. no data yet
+- Raj worried about everyone scheduling at midnight UTC -> warehouse load spike. maybe jitter the start time
+- what if the export fails? need to tell the user somehow. email? in-app?
+- big reports can be >2GB, email attachment won't work for those, link instead?
+- Priya to check if this should be paid tier only. she'll get back to us
+- launch maybe end of Q2? not committed
+- out of scope for v1: google sheets destination (lots of asks but separate project)
+- permissions: only people who can view the report should be able to schedule it. what happens if someone loses access after scheduling??

@@ -1,0 +1,21 @@
+[Recording: "Preview readiness - Fieldnote sync API" | Tuesday 2026-03-10, 10:00-10:32 Pacific]
+
+Maya (PM): Okay, goal today is to confirm we're ready to open the private preview to the first five customers.
+Sam (Eng): Backend is code complete. Load test hit our target on the staging cluster last Thursday.
+Maya: Great. Docs?
+Lena (Docs): Quickstart is drafted. The troubleshooting page isn't started.
+Maya: Can you have the troubleshooting page ready before we invite anyone?
+Lena: I can do a first version by Friday, yes.
+Sam: One thing - the runbook still references the old retry config. I'll send the updated runbook after this meeting.
+Maya: Someone should ping legal about the preview terms, we never got sign-off on the data retention clause.
+Omar (Support): Do we know what the rate limits are going to be for preview customers?
+Sam: Default quota is 100 requests per minute per workspace, but I'm not sure that's final.
+Maya: Omar, can you check whether that quota is enough for the two customers with big backfills?
+Omar: Hmm. I can look but I'm out Thursday and Friday.
+Maya: Also we agreed in Slack - we're dropping the Terraform provider from preview scope. It comes at public preview.
+Sam: Agreed.
+Lena: Should we revisit pricing messaging? Maybe next month.
+Maya: Let's maybe revisit that next month, yeah.
+Sam: Oh, actually, I just checked - the runbook update already went out this morning, I forgot. Ignore my earlier comment.
+Maya: Perfect. So we're not inviting customers until the troubleshooting page and legal sign-off are done. Target is the week of March 23 if those land.
+[end]

@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: prd-from-planning-notes
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  A reviewable PRD built only from the notes: problem, users, goals and non-goals, testable
+  requirements including failure and permission edge cases, success criteria with gaps marked
+  instead of invented targets, and a list of open questions.

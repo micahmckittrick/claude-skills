@@ -1,0 +1,21 @@
+{
+  "name": "micahmckittrick-skills",
+  "owner": {
+    "name": "micahmckittrick"
+  },
+  "metadata": {
+    "description": "Claude skills for product management and engineering operating work",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pm-craft",
+      "description": "PM writing and operating craft: PRDs, specs, strategy, launch and customer comms, reports, meeting actions, change-impact testing, automation design and agent delegation, with every metric, owner, date and quote kept traceable",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/pm-craft"
+      ]
+    }
+  ]
+}
