@@ -21,11 +21,12 @@ folder under [`skills/`](skills).
 
 ### Claude Code
 
-Add this repo as a plugin marketplace, then install the skill you want:
+Add this repo as a plugin marketplace, then install the skills you want:
 
 ```text
 /plugin marketplace add micahmckittrick/claude-skills
 /plugin install pm-craft@micahmckittrick-skills
+/plugin install app-promo-reels@micahmckittrick-skills
 ```
 
 Or copy a skill folder into your personal skills directory:
