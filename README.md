@@ -1,11 +1,13 @@
 # Claude Skills
 
-Skills for [Claude](https://claude.ai) that package methods I use as a product manager
-working closely with engineering. Each skill lives in its own folder under [`skills/`](skills).
+Skills for [Claude](https://claude.ai) that package methods I use day to day: product
+management, engineering operations, and marketing my own apps. Each skill lives in its own
+folder under [`skills/`](skills).
 
 | Skill | What it does |
 |---|---|
 | [pm-craft](skills/pm-craft) | PM writing and operating craft: PRDs, specs, strategy and prioritization, launch and customer communication, status and analytics reports, meeting actions, and how-to docs, plus change-impact testing, reliable automation design and agent delegation. It keeps every metric, owner, date and quote traceable instead of invented. |
+| [app-promo-reels](skills/app-promo-reels) | Weekly vertical promo reels (Instagram, TikTok, Shorts) for your own iOS apps and websites from real Simulator footage: fresh angles without repeats, a Remotion template with retention-first format rules, on-camera safety checks, and copy-ready captions with a posting schedule. Never posts for you. |
 
 ## Install a skill
 

@@ -4,7 +4,7 @@
     "name": "micahmckittrick"
   },
   "metadata": {
-    "description": "Claude skills for product management and engineering operating work",
+    "description": "Claude skills for product management, engineering operating work and app marketing",
     "version": "1.0.0"
   },
   "plugins": [
@@ -15,6 +15,15 @@
       "strict": false,
       "skills": [
         "./skills/pm-craft"
+      ]
+    },
+    {
+      "name": "app-promo-reels",
+      "description": "Weekly vertical promo reels for your own iOS apps and websites from real Simulator footage, with a Remotion template, on-camera safety checks and copy-ready captions. Never posts for you.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/app-promo-reels"
       ]
     }
   ]
